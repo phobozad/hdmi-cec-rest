@@ -1,0 +1,13 @@
+{
+	"name":		"hdmi-cec-rest",
+	"version":	"0.0.1",
+	"main":		"server.js",
+	"dependencies":	{
+		"express": 	"~4.0.0",
+		"body-parser":	"~1.0.1",
+		"node-cec": "git://github.com/rooi/node-cec.git",
+		"coffee-script":"~1.10.0",
+		"coffeelint":	"~1.15.7",
+		"wake_on_lan":	"~0.0.4"
+	}
+}
